@@ -1,0 +1,135 @@
+body {
+	margin: 20px 0;
+	padding: 0;
+	background: #3399FF url(images/img01.gif)  center;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #999999;
+}
+
+/* Header */
+
+#header {
+	width: 740px;
+	height: 160px;
+	margin: 0 auto;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: red;
+	border-radius: 10px;
+	
+	
+}
+
+/* Logo */
+
+#logo {	
+	background: url(images/logo.png) no-repeat;
+	float: left;
+	margin-left: 20px;
+	background-size: 90%;
+	width: 38%;
+	height: 100%
+	
+}
+
+/* Menu */
+
+#menu {
+	float: right;
+	width: 431px;
+	height: 50px;
+	margin-top: 85px;
+	background: #99CC00 url(images/img05.gif);
+	
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0 0 0 1em;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	padding: .5em .7em;
+	text-decoration: none;
+	text-transform: lowercase;
+	letter-spacing: -1px;
+	font-size: 1.5em;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	background: #FF9900;
+}
+
+#menu .active a {
+}
+
+/* Content */
+
+#content {
+	width: 740px;
+	margin: 0 auto;
+}
+
+/* Posts */
+
+#posts {
+	float: right;
+	width: 440px;
+	padding: 0 30px 0 0;
+}
+
+.post {
+	margin-bottom: 10px;
+}
+
+.post .title {
+	padding: 0 0 5px 20px;
+	color: #FF8400;
+}
+
+#footer {width: 740px;
+	margin: 0 auto;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: red;
+	border-radius: 10px;
+}
+
+
+h1, h2, h3 {
+	margin: 0;
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+img {
+	border: none;
+}
+
+a {
+	color: #333333;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+
+
