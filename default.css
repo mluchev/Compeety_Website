@@ -13,7 +13,6 @@ body {
 	height: 270px;
 	margin: 0 auto;
 	
-	
 }
 
 /* Logo */
@@ -30,9 +29,9 @@ body {
 /* Menu */
 
 #menu {
-	width: 666px;
-	height: 77px;
-	margin: -2px 30px 0px 50px;
+	width: 689px;
+	height: 79px;
+	margin: -2px 30px 0px 57px;
 	background: #9C0 url(images/img05.gif);
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -54,9 +53,9 @@ body {
 #menu a {
 	display: block;
 	float: left;
-	padding: 1.2em 1.5em;
+	padding: 1.5em 0.65em;
 	text-decoration: none;
-	text-transform: lowercase;
+	// text-transform: lowercase;
 	letter-spacing: -1px;
 	font-size: 1.5em;
 	color: #FFFFFF;
@@ -64,6 +63,8 @@ body {
 
 #menu a:hover {
 	background: #FF9900;
+	border-style: solid;
+
 }
 
 #menu .active a {
@@ -82,6 +83,7 @@ body {
 	//float: right;
 	// width: 440px;
 	padding: 30px;
+	margin: 0px 0px 0px 50px;
 }
 
 .post {
@@ -95,15 +97,12 @@ body {
 
 #footer {width: 740px;
 	margin: 0 auto;
-	border-top-style: solid;
-	border-top-width: 2px;
-	border-top-color: red;
 }
 
 
 h1, h2, h3 {
 	margin: 0;
-	text-transform: lowercase;
+	// text-transform: lowercase;
 	font-weight: normal;
 }
 
@@ -126,6 +125,14 @@ a {
 a:hover {
 	text-decoration: none;
 	color: #000000;
+
+	transform: scale(1.2,1.2) rotate(-3deg);
+		-ms-transform: scale(1.2,1.2) rotate(-3deg); /* IE 9 */
+		-webkit-transform: scale(1.2,1.2) rotate(-3deg); /* Safari and Chrome */
+		-o-transform: scale(1.2,1.2) rotate(-3deg); /* Opera */
+		-moz-transform: scale(1.2,1.2) rotate(-3deg); /* Firefox */
+
+	
 }
 
 
